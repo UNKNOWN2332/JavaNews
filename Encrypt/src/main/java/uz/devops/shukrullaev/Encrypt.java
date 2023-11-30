@@ -33,14 +33,14 @@ public class Encrypt {
     @SneakyThrows
     public byte[] encrypt(byte[] input, Key key, IvParameterSpec ivParameterSpec) {
         cipher.init(Cipher.ENCRYPT_MODE,
-            key,
-            ivParameterSpec);
+            key,new IvParameterSpec(new byte[16]));
         return cipher.doFinal(input);
     }
 
     @SneakyThrows
     public byte[] decrypt(byte[] encryptedInput, Key key, IvParameterSpec ivParameterSpec) {
-        cipher.init(Cipher.DECRYPT_MODE, key, ivParameterSpec);
+        byte[] bytes = new byte[16];
+        cipher.init(Cipher.DECRYPT_MODE, key,new IvParameterSpec(bytes));
         return cipher.doFinal(encryptedInput);
     }
 }
