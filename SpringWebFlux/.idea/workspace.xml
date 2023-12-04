@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="073e6151-286f-4ae3-b434-ea342f776feb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Design Pattern/iterator pattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design Pattern/iterator pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design Pattern/iterator pattern/src/main/java/uz/shukrullaev/IteratorCompositeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Design Pattern/iterator pattern/src/main/java/uz/shukrullaev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/shukrullaev/com/IteratorCompositeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/shukrullaev/com/SpringWebFluxApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uz/shukrullaev/com/SpringWebFluxApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/uz/shukrullaev/com/SpringWebFluxApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Encrypt/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encrypt/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Encrypt/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encrypt/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Encrypt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Encrypt/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2YwqJ4T25VCC0NpOGOyiWtQTDlC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus/IdeaProjects&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.IteratorCompositeExample">
+    <configuration name="IteratorCompositeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.shukrullaev.com.IteratorCompositeExample" />
+      <module name="SpringWebFlux" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.shukrullaev.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListLoopDetection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.shukrullaev.com.test.LinkedListLoopDetection" />
+      <module name="SpringWebFlux" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.shukrullaev.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.shukrullaev.com.TestClass" />
+      <module name="SpringWebFlux" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.shukrullaev.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uz.shukrullaev.com.TestStaticMethod" />
+      <module name="SpringWebFlux" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uz.shukrullaev.com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringWebFluxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringWebFlux" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="uz.shukrullaev.com.SpringWebFluxApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IteratorCompositeExample" />
+        <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.LinkedListLoopDetection" />
+        <item itemvalue="Application.TestStaticMethod" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="073e6151-286f-4ae3-b434-ea342f776feb" name="Changes" comment="" />
+      <created>1701446916508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701446916508</updated>
+      <workItem from="1701446917576" duration="3000" />
+      <workItem from="1701484204863" duration="1326000" />
+      <workItem from="1701506137592" duration="9583000" />
+      <workItem from="1701611490124" duration="277000" />
+      <workItem from="1701612501693" duration="169000" />
+      <workItem from="1701623339170" duration="4247000" />
+      <workItem from="1701693674091" duration="4738000" />
+      <workItem from="1701719264989" duration="3251000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/uz/shukrullaev/com/test/LinkedListLoopDetection.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/uz/shukrullaev/com/test/LinkedListLoopDetection.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="head.next.next.next.next.next.next.next" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

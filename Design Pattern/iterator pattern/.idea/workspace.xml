@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fbe21c3-9e01-4512-8b41-9e593686d0b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/shukrullaev/IteratorCompositeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/uz/shukrullaev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/src/main/java/uz/shukrullaev/com/IteratorCompositeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/src/main/java/uz/shukrullaev/com/SpringWebFluxApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/src/test/java/uz/shukrullaev/com/SpringWebFluxApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringWebFlux/target/classes/uz/shukrullaev/com/SpringWebFluxApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encrypt/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encrypt/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encrypt/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encrypt/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Encrypt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Encrypt/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2Z5rxORDMeyFifkhFQWZs1la1Pq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Asus/JavaNews/Design Pattern/iterator pattern/src/main/java/uz/shukrullaev",
+    "onboarding.tips.debug.path": "C:/Users/Asus/JavaNews/Design Pattern/iterator pattern/src/main/java/uz/shukrullaev/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\JavaNews\Design Pattern\iterator pattern\src\main\java\uz\shukrullaev" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="iterator pattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="iterator pattern" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fbe21c3-9e01-4512-8b41-9e593686d0b9" name="Changes" comment="" />
+      <created>1701723027503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701723027503</updated>
+      <workItem from="1701723028514" duration="119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/uz/shukrullaev/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
