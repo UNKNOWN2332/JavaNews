@@ -5,9 +5,12 @@ package uz.shukrullaev;
  * @see uz.shukrullaev.com
  * @since 12/4/2023 7:33 PM
  */
+
 import java.util.ArrayList;
+import java.util.ConcurrentModificationException;
 import java.util.Iterator;
 import java.util.List;
+import java.util.concurrent.*;
 
 // Интерфейс компонента
 interface Department {
@@ -57,29 +60,6 @@ class CompositeDepartment implements Department {
 
 public class IteratorCompositeExample {
     public static void main(String[] args) {
-//        // Создаем структуру композита
-//        List<String> list = new ArrayList<>();
-//        list.add("Item 1");
-//        list.add("Item 2");
-//        list.add("Item 3");
-//
-//        for (int i=0; i<list.size(); i++) {
-//            System.out.println(list.get(i));
-//            // Производим изменение коллекции в процессе итерации (например, добавление нового элемента)
-//            list.add("New Item");  // Это вызовет ConcurrentModificationException
-//        }
-//        List<String> list = new ArrayList<>();
-//        list.add("Item 1");
-//        list.add("Item 2");
-//        list.add("Item 3");
-//
-//        for (int i = 0; i < list.size(); i++) {
-//            String item = list.get(i);
-//            System.out.println(item);
-//
-//            // Производим изменение коллекции в процессе итерации (например, добавление нового элемента)
-//            list.add("New Item");  // ConcurrentModificationException не будет выброшено
-//        }
         // Создаем структуру композита
         CompositeDepartment root = new CompositeDepartment("Root");
 
@@ -108,5 +88,67 @@ public class IteratorCompositeExample {
         // Используем итератор для обхода всей структуры
         root.printDepartmentName();
 
+
+        System.out.println("######################################");
+        try {
+            throwsConcurrentExceptionVersion();
+        } catch (ConcurrentModificationException e) {
+            System.out.println("Concurrent exception boldi ");
+        }
+        System.out.println("######################################");
+
+
+        testCycleAndStopWhenCycled();
+
+
     }
+
+    private static void testCycleAndStopWhenCycled() {
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+        Future<?> submit = executor.submit(IteratorCompositeExample::testCycleVersion);
+        System.out.println("START");
+        try {
+            submit.get(1, TimeUnit.SECONDS);
+        } catch (InterruptedException | ExecutionException | TimeoutException e) {
+            submit.cancel(true);
+            System.out.println("Time outga tushdi tsikl bop");
+            System.exit(1);
+        }
+    }
+
+    public static void throwsConcurrentExceptionVersion() {
+        // Создаем структуру композита
+        List<String> list = new ArrayList<>();
+        list.add("Item 1");
+        list.add("Item 2");
+        list.add("Item 3");
+
+        for (String value : list) {
+            System.out.println(value);
+            // Производим изменение коллекции в процессе итерации (например, добавление нового элемента)
+            list.add("New Item");  // Это вызовет ConcurrentModificationException
+        }
+
+    }
+
+    public static void testCycleVersion() {
+        List<String> list = new ArrayList<>();
+        list.add("Item 1");
+        list.add("Item 2");
+        list.add("Item 3");
+
+        for (int i = 0; i < list.size(); i++) {
+            String item = list.get(i);
+            System.out.println(item);
+            // Производим изменение коллекции в процессе итерации (например, добавление нового элемента)
+            list.add("New Item");  // ConcurrentModificationException не будет выброшено но будет цикляться
+        }
+    }
+    /**
+     * Iterator pattern - iterator pattern bu bizning collectionlarimiz ustida olib boradigon
+     * manipulatsya qiladigon jaryonimzada ConcurrentModificationException exception chiqish yoki
+     * tsiklga tushib qolish oldini olish uchun ishlatiladigon pattern bu pattern kodimizni dynamic
+     * toza va design patternga mos holda bolib va bu OOP inkapsulyatsya turiga mansub
+     * biz iterator orqali concurrent oldini olish tsikl tushish oldini olish uchun ishlatamiz
+     * */
 }
