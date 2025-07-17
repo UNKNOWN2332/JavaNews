@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa992e5f-b56e-418f-9e77-188f3b2bcf92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SOAP/src/main/java/uz/shukrullaev/com/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOAP/src/main/java/uz/shukrullaev/com/service/CalculatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SOAP/src/main/java/uz/shukrullaev/com/service/impl/CalculatorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/src/main/java/uz/shukrullaev/sse/SseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/src/main/java/uz/shukrullaev/sse/sse_controller/SSEEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSE/src/test/java/uz/shukrullaev/sse/SseApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOLID/Dependency Inversion/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SOLID/Dependency Inversion/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SOLID/Dependency Inversion/src/main/java/uz/shukrullaev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SOLID/Dependency Inversion/src/main/java/uz/shukrullaev/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-java-workshop" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-java-workshop" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ziZn6KjuuIWMZwIy8i2RBGuIaP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "1f1aa84c288004ab97216e7ee1bf570d"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TonServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Ton-Service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="uz.shukrullaev.com.tonservice.TonServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa992e5f-b56e-418f-9e77-188f3b2bcf92" name="Changes" comment="" />
+      <created>1752216018285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752216018285</updated>
+      <workItem from="1752216021654" duration="1005000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
